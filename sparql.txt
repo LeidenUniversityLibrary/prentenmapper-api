@@ -17,5 +17,4 @@ where {
     dcterms:extent ?extent .
   }
 }
-
 LIMIT 100
