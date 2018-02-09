@@ -1,0 +1,21 @@
+# Selecteer prenten uit de Topografie van Nederland uit Amsterdam
+# Maak daarbij een plaatjes-URI
+
+select ?photo ?title ?description ?place ?extent ?image
+FROM NAMED <http://lod.kb.nl/gvn/ubl01/>
+where {
+  ?photo a dctype:StillImage ;
+    dcterms:spatial ?place .
+  FILTER(REGEX(?place, "Amsterdam"))
+
+  ?photo dcterms:source ?urn .
+  BIND (IRI(CONCAT(str(?urn), "&role=image&size=variable")) AS ?image)
+
+  OPTIONAL {
+   ?photo dc:title ?title ;
+    dc:description ?description ;
+    dcterms:extent ?extent .
+  }
+}
+
+LIMIT 100
