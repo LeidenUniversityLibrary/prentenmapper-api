@@ -3,7 +3,7 @@ import urllib.parse
 
 from aiohttp import web
 import rdflib
-from SPARQLWrapper import SPARQLWrapper, JSON
+from SPARQLWrapper import SPARQLWrapper, JSON, TURTLE
 
 SPARQL_URI = "http://lod.kb.nl/sparql"
 SPARQL_QUERY = """
@@ -12,12 +12,13 @@ where {
   ?photo a dctype:StillImage ;
     dcterms:spatial ?place .
   FILTER(REGEX(?place, "Amsterdam"))
+  FILTER(REGEX(?title, "hoek", "i"))
 
   ?photo dcterms:source ?urn .
   BIND (IRI(CONCAT(str(?urn), "&role=image&size=variable")) AS ?image)
 
   OPTIONAL {
-   ?photo dc:title ?title ;
+   ?photo rdfs:label ?title ;
     dc:description ?description ;
     dcterms:extent ?extent .
   }
@@ -69,6 +70,19 @@ async def monument(request):
         return web.json_response(data=res)
 
 
+async def monument_rdf(request):
+    term = urllib.parse.unquote(request.match_info['gebouw'])
+    print(term)
+    if term in request.app['gebouwen_cache']:
+        return web.Response(body=request.app['gebouwen_cache'][term], content_type='text/turtle')
+    else:
+        sparql = request.app['wikidata_construct']
+        sparql.setQuery(SPARQL_CONSTRUCT.format(term))
+        res = sparql.query()
+        request.app['gebouwen_cache'][term] = res
+        return web.json_response(data=res)
+
+
 def load_mapping():
     g = rdflib.Graph()
     g.parse('gebouwen.ttl', format='n3')
@@ -84,6 +98,7 @@ async def on_shutdown(app):
 
 app = web.Application()
 app['wikidata_sparql'] = SPARQLWrapper("https://query.wikidata.org/sparql", returnFormat=JSON)
+app['wikidata_construct'] = SPARQLWrapper("https://query.wikidata.org/sparql", returnFormat=TURTLE)
 app['gebouwen'] = load_mapping()
 app['gebouwen_cache'] = {}
 app.router.add_get('/', prenten)
