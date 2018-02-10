@@ -1,0 +1,488 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://lod.kb.nl/gvn/UBL01P301-3N001> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q623558> rdfs:label "Oude Kerk" .
+
+<http://lod.kb.nl/gvn/UBL01P301-3N001> foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "Oude Kerk tot Amsterdam" .
+
+<http://lod.kb.nl/gvn/UBL01P301-3N002> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q613854> rdfs:label "Noorderkerk" .
+
+<http://lod.kb.nl/gvn/UBL01P301-3N002> foaf:depicts <http://www.wikidata.org/entity/Q613854> ;
+	rdfs:label "Interieur van de Noorderkerk te Amsterdam" .
+
+<http://lod.kb.nl/gvn/UBL01P301-3N003> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q1130722> rdfs:label "Westerkerk" .
+
+<http://lod.kb.nl/gvn/UBL01P301-3N003> foaf:depicts <http://www.wikidata.org/entity/Q1130722> ;
+	rdfs:label "Westerkerk van binnen" .
+
+<http://lod.kb.nl/gvn/UBL01P317N002> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q1419675> rdfs:label "Nieuwe Kerk" .
+
+<http://lod.kb.nl/gvn/UBL01P317N002> foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Nieuwe kerk te Amsterdam" .
+
+<http://lod.kb.nl/gvn/UBL01P317N003> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Platte grond van de Nieuwe Kerk der Stad Amsterdam, ingerigt voor de plegtige inhuldiging" .
+
+<http://lod.kb.nl/gvn/UBL01P317N004> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Platte grond van de Nieuwe Kerk der Stad Amsterdam, ingerigt voor de plegtige Inhuldiging" .
+
+<http://lod.kb.nl/gvn/UBL01P317N005> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Platte grond van de Nieuwe Kerk der Stad Amsterdam. Ingerigt voor de plegtige inhuldiging van Z. M. Willem III, op den 12en mei 1849" .
+
+<http://lod.kb.nl/gvn/UBL01P317N006> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "De Nieuwe of St. Katharines kerk 't Amsterdam, zoo als zy te zien was van binnen in den Jaere 1645...vernieuwing echter merkelijk verbetert is." .
+
+<http://lod.kb.nl/gvn/UBL01P317N021> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "[Gezicht op Nieuwe Kerk te Amsterdam]" .
+
+<http://lod.kb.nl/gvn/UBL01P317N023> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "De nieuwe kerk. = église neuve" .
+
+<http://lod.kb.nl/gvn/UBL01P317N028> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "De Nieuwe Kerk, van binnen, ten westen, tegen 't Orgel aan te zien. = Perspective de l Eglise neufve, du costé, de l'occident regardant vers les orgues." .
+
+<http://lod.kb.nl/gvn/UBL01P317N036> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "[Het Hek van de Nieuwe Kerk te Amsterdam.]" .
+
+<http://lod.kb.nl/gvn/UBL01P317N037> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Hoc opus aeneum est Chori, Templi novi Amstelodamensium." .
+
+<http://lod.kb.nl/gvn/UBL01P317N038> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Hoc opus aeneum est Chori, Templum novi Amstelodamensium." .
+
+<http://lod.kb.nl/gvn/UBL01P317N039> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "De nieuwe kerk. = intérieur de la nouvelle église." .
+
+<http://lod.kb.nl/gvn/UBL01P317N045> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Trouwplegtigheid by de Hervormden, in de Nieuwe Kerk, te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P317N047> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Afbeelding van het Noordhollands Synode, zo als het gehouden wordt in het Koor der Nieuwe Kerk, te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P317N061> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "Grondtekening der Oude Kerke, en der Oude Chooren, en Kapellen, in de zelve." .
+
+<http://lod.kb.nl/gvn/UBL01P317N075> a foaf:Document ;
+	rdfs:label "De Wapens en Namen van haar Edl. Gr-Achtb. De Heeren burgermeesteren der Stadt Amsterdam sedert de Reformatie Ao. 1578, tot nu toe." .
+
+<http://lod.kb.nl/gvn/UBL01P317N076> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "De Oude kerk = La vielle église" .
+
+<http://lod.kb.nl/gvn/UBL01P317N078> a foaf:Document ;
+	rdfs:label "Wapens en Namen van de Burgermeesteren tot Amsterdam sedert Anno 1578 tot heden toe." .
+
+<http://lod.kb.nl/gvn/UBL01P317N079> a foaf:Document ;
+	rdfs:label "Wapens en Namen van de Burgermeesteren tot Amsterdam sedert Anno 1578 tot heden toe." .
+
+<http://lod.kb.nl/gvn/UBL01P317N084> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "Bediening van het H. Avondmaal by de Hervormden, in de Oude Kerk, te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P317N134> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q3408888> rdfs:label "Oosterkerk" .
+
+<http://lod.kb.nl/gvn/UBL01P317N134> foaf:depicts <http://www.wikidata.org/entity/Q3408888> ;
+	rdfs:label "Templum Orientale. = Oosterkerk." .
+
+<http://lod.kb.nl/gvn/UBL01P317N136> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q3408888> ;
+	rdfs:label "L'Eglise orientale, en face." .
+
+<http://lod.kb.nl/gvn/UBL01P317N138> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q3408888> ;
+	rdfs:label "Ooster-Kerk te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P317N169> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1130722> ;
+	rdfs:label "[De groote Deuren van de Wester Kerk.]" .
+
+<http://lod.kb.nl/gvn/UBL01P317N179> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1130722> ;
+	rdfs:label "Templum Occidentale. = Westerkerk." .
+
+<http://lod.kb.nl/gvn/UBL01P317N182> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1130722> ;
+	rdfs:label "De Wester Kerk begonnen Ao. 1620, de eerste Predicatie daer in gedaen op Pinxterdach 1631." .
+
+<http://lod.kb.nl/gvn/UBL01P317N186> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1130722> ;
+	rdfs:label "[Platte Grond van de Wester Kerk te Amsterdam.]" .
+
+<http://lod.kb.nl/gvn/UBL01P317N200> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q2788825> rdfs:label "Onze Lieve Vrouwekerk" .
+
+<http://lod.kb.nl/gvn/UBL01P317N200> foaf:depicts <http://www.wikidata.org/entity/Q2788825> ;
+	rdfs:label "Onze Lieve Vrouwe Kerk op de Keizergracht bij de Westmarkt te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P317N242> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q2041637> rdfs:label "Oude Lutherse Kerk" .
+
+<http://lod.kb.nl/gvn/UBL01P317N242> foaf:depicts <http://www.wikidata.org/entity/Q2041637> ;
+	rdfs:label "D'oude Luytrse Kerck. =l'Eglise des Lutheriens." .
+
+<http://lod.kb.nl/gvn/UBL01P317N260> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q17297813> rdfs:label "Portugese Synagoge" .
+
+<http://lod.kb.nl/gvn/UBL01P317N260> foaf:depicts <http://www.wikidata.org/entity/Q17297813> ;
+	rdfs:label "La dedicace de la synagogue des Juif Portugais, a Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P317N264> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q17297813> ;
+	rdfs:label "Huwelyks - plegtigheid van de Portugeesche Jooden." .
+
+<http://lod.kb.nl/gvn/UBL01P317N265> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q17297813> ;
+	rdfs:label "Frontispicium Synagogae = Elfrontispicio de la Synagoga = Voorgevel van de Kerck" .
+
+<http://lod.kb.nl/gvn/UBL01P317N267> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q17297813> ;
+	rdfs:label "Synagoga cum ornibus Ornamentis = La Synagoga con sus Adornos = De Kerck met syne Zieraden" .
+
+<http://lod.kb.nl/gvn/UBL01P317N283> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q17297813> ;
+	rdfs:label "5613 de Portugeesche Sijngoge te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P317N285> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q17297813> ;
+	rdfs:label "Gezicht der Portugeesche en Hoogduitsche Jooden - Synagogen, nevens het Feest der Loofhutten, te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P318N115> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q2920003> rdfs:label "Felix Meritis" .
+
+<http://lod.kb.nl/gvn/UBL01P318N115> foaf:depicts <http://www.wikidata.org/entity/Q2920003> ;
+	rdfs:label "Felix Meritis." .
+
+<http://lod.kb.nl/gvn/UBL01P318N116> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2920003> ;
+	rdfs:label "Voorgevel van het gebouw der maatschappyë Felix Meritis binnen Amsterdam. = Façade de l'edifice de la société Felix Meritis à Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P319N046> a foaf:Document ;
+	rdfs:label "De dam, met het stadhuis en de Waag, te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P320N091> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q2342520> rdfs:label "Bank van Lening" .
+
+<http://lod.kb.nl/gvn/UBL01P320N091> foaf:depicts <http://www.wikidata.org/entity/Q2342520> ;
+	rdfs:label "Ingang tot de Lombeerd Bank van leening te Amsterdam. Gebouwd in 1548." .
+
+<http://lod.kb.nl/gvn/UBL01P321N136> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q1429748> rdfs:label "Munttoren" .
+
+<http://lod.kb.nl/gvn/UBL01P321N136> foaf:depicts <http://www.wikidata.org/entity/Q1429748> ;
+	rdfs:label "Amsterdam gezigt genomen van de Munttorren = vue prise de la Tour de la Monnaie" .
+
+<http://lod.kb.nl/gvn/UBL01P321N156> a foaf:Document ;
+	rdfs:label "Amsterdam" .
+
+<http://lod.kb.nl/gvn/UBL01P321N362> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1130722> ;
+	rdfs:label "Ende soo sal mede, op wyning na, dese Concept-Coupel alleen de beyde Suyderen Wester-Kercken t'samen...overdecken konnen" .
+
+<http://lod.kb.nl/gvn/UBL01P321N363> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q849957> rdfs:label "Concertgebouw" .
+
+<http://lod.kb.nl/gvn/UBL01P321N363> foaf:depicts <http://www.wikidata.org/entity/Q849957> ;
+	rdfs:label "Door het dus Bestippen van drye onser Hooft-Kercken met de omtreck van dit Concept-Gebouw, komt de ongemeene Groote daar af sig dan eerst regt te vertoonen..." .
+
+<http://lod.kb.nl/gvn/UBL01P321N404> a foaf:Document ;
+	rdfs:label "De Wapens en Namen van haar Ed. Gr-Achtb. De Heeren Burgemeesteren der Stadt Amsterdam, sedert de Reformatie Ao. 1578, tot nu toe." .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-109.772> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q17297813> ;
+	rdfs:label "'t Profil van de Kerk [De Portugese synagoge te Amsterdam]" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-109.773> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q17297813> ;
+	rdfs:label "Plata Forma Fachata da Aesnoga [Het interieur van de Portugese synagoge te Amsterdam]" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-130.448> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2920003> ;
+	rdfs:label "Gehoor zaal in het gebouw der Maatschappyë Felix Meritis binnen Amsterdam. = Auditoire dans l'Edifiçe de la Société Felix Meritis a Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-130.449> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2920003> ;
+	rdfs:label "Muzyk zaal in het gebouw der Maatschappyë Felix Meritis binnen Amsterdam = Salle de Conçert dans l'Edifiçe de la Société Felix Meritis a Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-130.450> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2920003> ;
+	rdfs:label "Zaal der Natuurkunde in het gebouw der Maatschappyë Felix Meritis binnen Amsterdam = Salle de Phijsique dans l'Edifiçe de la société Felix Meritis a Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-134.019> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "[De Oude Kerk te Amsterdam]" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-134.020> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "[De Oude Kerk te Amsterdam]" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-136.218> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "De Nieuwe Kerk naar een zestiend' eeuwsch schilderij" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-136.493> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2920003> ;
+	rdfs:label "Voorgevel van het Gebouw der Maatschappije Felix Meritis binnen Amsterdam = Façade au l'edifice de la Société Felix Meritis à Amsterdam" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-142.199> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1130722> ;
+	rdfs:label "[Gezicht op de Westerkerk in Amsterdam]" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-142.201> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "[gezicht op Oude Kerk in Amsterdam]" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-142.202> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "[Oude Kerk in Amsterdam]" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-142.216> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1130722> ;
+	rdfs:label "[Westerkerk in Amsterdam]" .
+
+<http://lod.kb.nl/gvn/UBL01048-21-047> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q1976404> rdfs:label "Muiderpoort" .
+
+<http://lod.kb.nl/gvn/UBL01048-21-047> foaf:depicts <http://www.wikidata.org/entity/Q1976404> ;
+	rdfs:label "De Muyder Poort inde Stad te zien=Vue de la Porte de Muyden dans la Ville" .
+
+<http://lod.kb.nl/gvn/UBL01P301-3N016> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q2343931> rdfs:label "Haarlemmerpoort" .
+
+<http://lod.kb.nl/gvn/UBL01P301-3N016> foaf:depicts <http://www.wikidata.org/entity/Q2343931> ;
+	rdfs:label "Oude Haarlemmerpoort te Amsterdam" .
+
+<http://lod.kb.nl/gvn/UBL01P301-3N022> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2920003> ;
+	rdfs:label "Felix Meritis" .
+
+<http://lod.kb.nl/gvn/UBL01P317N001> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "[Nieuwe Kerk te Amsterdam]" .
+
+<http://lod.kb.nl/gvn/UBL01P317N002A> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Nieuwe kerk te Amsterdam" .
+
+<http://lod.kb.nl/gvn/UBL01P317N011-02> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Grafschrift van Willem Eggert, Mede-Stigter der Nieuwe Kerke." .
+
+<http://lod.kb.nl/gvn/UBL01P317N011-03> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Het Koperen - Hek voor 't Choor der Nieuwe - Kerke." .
+
+<http://lod.kb.nl/gvn/UBL01P317N016> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "De Nieuwe Kerck is begonnen Ao. 1414 volbouxt en toegewydt St. Catharine Anno 1345." .
+
+<http://lod.kb.nl/gvn/UBL01P317N017> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "De Nieuwe Kerck, Afgebrand Anno 1645. en ten eersten Herbouwt Ao. 1648." .
+
+<http://lod.kb.nl/gvn/UBL01P317N042> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "[Kansel Nieuwe Kerk te Amsterdam]" .
+
+<http://lod.kb.nl/gvn/UBL01P317N046> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "Synode tenu dans le Choer de L'Eglise Neuve, à Amsterdam, en 1730" .
+
+<http://lod.kb.nl/gvn/UBL01P317N048> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "De oude Kerck begonnen omternt den Jare 1370 met een Tooren verciert en opgebouwt Ao. 1566." .
+
+<http://lod.kb.nl/gvn/UBL01P317N054> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "Oude Kerk. = l'Eglise Vieille" .
+
+<http://lod.kb.nl/gvn/UBL01P317N064> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "[binnen gezicht der Oude Kerk, te Amsterdaml]" .
+
+<http://lod.kb.nl/gvn/UBL01P317N068> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "La Vieille église, du coté de la place." .
+
+<http://lod.kb.nl/gvn/UBL01P317N070> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "De Oude kerk. = La vielle église." .
+
+<http://lod.kb.nl/gvn/UBL01P317N122> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q613854> ;
+	rdfs:label "Noorder Kerk = l'Eglise Septentrionalis" .
+
+<http://lod.kb.nl/gvn/UBL01P317N123> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q613854> ;
+	rdfs:label "Noorder Kerk." .
+
+<http://lod.kb.nl/gvn/UBL01P317N128> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q613854> ;
+	rdfs:label "[Noorder Kerk aldaar]" .
+
+<http://lod.kb.nl/gvn/UBL01P317N168> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1130722> ;
+	rdfs:label "De Westerkerk en Vleeschaal 't Amsterdam... de Keysers en Prince grachten." .
+
+<http://lod.kb.nl/gvn/UBL01P317N194> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q2788825> rdfs:label "Onze Lieve Vrouwe Kerk" .
+
+<http://lod.kb.nl/gvn/UBL01P317N194> foaf:depicts <http://www.wikidata.org/entity/Q2788825> ;
+	rdfs:label "Onze Lieve Vrouwe Kerk op de Keizergracht bij de Westermarkt te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P317N194-200> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2788825> ;
+	rdfs:label "Beschrijving, behoorende bij de afbeeldingen van de Nieuw gebouwde Onze - Lieve - Vrouwe - Kerk, op de Keizergracht bij de Westermerkt, te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P317N195> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2788825> ;
+	rdfs:label "Onze Lieve Vrouwe Kerk op de Keizergracht bij de Westmarkt te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P317N197> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2788825> ;
+	rdfs:label "Onze Lieve Vrouwe Kerk op de Keizergracht bij de Westmarkt te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P317N219> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2041637> ;
+	rdfs:label "Vetus Templum Lutheranorum. = Oude Luthersche Kerk." .
+
+<http://lod.kb.nl/gvn/UBL01P317N221> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2041637> ;
+	rdfs:label "[De oude Lutherse Kerk te Amsterdam.]" .
+
+<http://lod.kb.nl/gvn/UBL01P317N255> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q17297813> ;
+	rdfs:label "La Synagogue d' Amsterdam, tableau de M. Brandon." .
+
+<http://lod.kb.nl/gvn/UBL01P317N261> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q17297813> ;
+	rdfs:label "Synagugae Scolarumque prosptetus = La Synaguga con las Efeuelas y galerias = Gesicht der Kerk en Schoolen" .
+
+<http://lod.kb.nl/gvn/UBL01P319N004> a foaf:Document ;
+	rdfs:label "De Dam, met het Stadhuis en de Waag, te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01P319N101> a foaf:Document ;
+	rdfs:label "The Palace, Amsterdam, [Het Paleis op de Dam, rechts de Nieuwe Kerk; met een feestelijke optocht t.g.v. de verkoop van de eerste nieuwe haring.]" .
+
+<http://lod.kb.nl/gvn/UBL01P319N281> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q610402> rdfs:label "Schreierstoren" .
+
+<http://lod.kb.nl/gvn/UBL01P319N281> foaf:depicts <http://www.wikidata.org/entity/Q610402> ;
+	rdfs:label "Schreyershoek 't Amsterdam van den Jaere 1650. met syn houten brug sedert verandert...ouden ringmuer der Stadt (tekst van 5 regels onder de prent)." .
+
+<http://lod.kb.nl/gvn/UBL01P319N300> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1429748> ;
+	rdfs:label "De Munttoren = Tour de la Monnaie" .
+
+<http://lod.kb.nl/gvn/UBL01P320N210> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2343931> ;
+	rdfs:label "Gezicht buiten de Haarlemmer-Poort, op den Hoogen dijk, naar de zandhoek." .
+
+<http://lod.kb.nl/gvn/UBL01P320N275-276> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1976404> ;
+	rdfs:label "[Muider Poort te Amsterdam.]; [Dezelve van Buiten]" .
+
+<http://lod.kb.nl/gvn/UBL01P321N090> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q2223310> rdfs:label "Oost-Indisch Huis" .
+
+<http://lod.kb.nl/gvn/UBL01P321N090> foaf:depicts <http://www.wikidata.org/entity/Q2223310> ;
+	rdfs:label "Oost indies Huys en Werf." .
+
+<http://lod.kb.nl/gvn/UBL01P321N225> a foaf:Document ;
+	rdfs:label "'T Rondeel en Doelentoren ziende op de Zuyderkerk .... op den Binnenamstel." .
+
+<http://lod.kb.nl/gvn/UBL01P321N292> a foaf:Document ;
+	rdfs:label "Gezicht op den Middelwegh of Muider Straet in de Nieuwe Plantagie naer de Muider Poort toe. = Vüe du Grand Chemin du Plantage vers la Porte de Muyden." .
+
+<http://lod.kb.nl/gvn/UBL01P321N351> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1976404> ;
+	rdfs:label "Caarte waar in vertoont werd de platte grond van de Nieuwe Plantage tussen de Heere gragt en de Muider Poort." .
+
+<http://lod.kb.nl/gvn/UBL01P337N014> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q17302344> rdfs:label "Tolhuis" .
+
+<http://lod.kb.nl/gvn/UBL01P337N014> foaf:depicts <http://www.wikidata.org/entity/Q17302344> ;
+	rdfs:label "Tolhuis" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-102.664> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "S. Nicolaes ofte Ouwe Kerk tot Amsterdam" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-102.666> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "S Catrynen ofte Nieuwe-Kerck t' Amsterdam" .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-115.369> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q623558> ;
+	rdfs:label "Winter-Gezicht, op de Cingel, voor de Luthersche Oude Kerk te zien, tot Amsterdam=Vue de l' hyver, sur le Cingel, devant la Vieille Eglise Lutheriènne, à Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-136.159> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q1419675> ;
+	rdfs:label "De Nieuwe Kerk van Binne, tot Amsterdam=l' Interieur de l' Eglise Neuve, à Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-136.161> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q610402> ;
+	rdfs:label "Gezicht van de Schreyershoeks Toren te Amsterdam=Vue de la Tour des Pleurs à Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-136.164> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2223310> ;
+	rdfs:label "Gezicht van het Oost-Indisch-Huys, op de Binnen-plaats te zien, tot Amsterdam=Vue de la Maison des Indes Orientales à Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-136.176> a foaf:Document ;
+	rdfs:label "De Binnen Amstel na de Munts Tooren te zien=La Riviêre d' Amstel près la Tour des Monnoyes." .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-136.179> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q849957> ;
+	rdfs:label "Concert-gebouw te Amsterdam." .
+
+<http://lod.kb.nl/gvn/UBL01PK-P-136.509> a foaf:Document ;
+	foaf:depicts <http://www.wikidata.org/entity/Q2920003> ;
+	rdfs:label "Teken Zaal in het gebouw der Maatschappyë Felix Meritis binnen Amsterdam = salle de Dessin dans l'edifiçe de la Société Felix Meritis a Amsterdam" .
+
+<http://lod.kb.nl/gvn/UBL01PK-T-AW-1960> a foaf:Document .
+
+<http://www.wikidata.org/entity/Q2142834> rdfs:label "Vondelkerk" .
+
+<http://lod.kb.nl/gvn/UBL01PK-T-AW-1960> foaf:depicts <http://www.wikidata.org/entity/Q2142834> ;
+	rdfs:label "Gezicht op toren van de Vondelkerk bij avond" .
