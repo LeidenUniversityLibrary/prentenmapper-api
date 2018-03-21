@@ -37,7 +37,7 @@ De Prentenmapper backend is ontwikkeld met Python 3.6 en maakt o.a. gebruik van 
 
 Het is aan te raden om een `virtualenv` te gebruiken voor de Prentenmapper backend. Met de gemaakte `virtualenv` geactiveerd installeer je de benodigdheden met:
 
-<kbd>git clone https://github.com/leidenuniversitylibraries/prentenmapper-api.git</kbd>  
+<kbd>git clone https://github.com/LeidenUniversityLibrary/prentenmapper-api.git</kbd>  
 <kbd>cd prentenmapper-api</kbd>  
 <kbd>pip install -r requirements.txt</kbd>
 
